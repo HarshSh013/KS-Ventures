@@ -1,0 +1,65 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 250px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(123, 101, 101); 
+    background-color: rgba(182, 179, 179, 0.7); 
+  }
+  
+  
+  .modal-content {
+    background-color: rgb(64 , 54, 48);
+    color: rgb(200, 194, 194);
+    margin: auto;
+    padding: 25px 50px;
+    border: 1px solid #888;
+    width: 500px;
+    height: 250px;
+  }
+  
+  
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  #myBtn {
+    background:rgb(111,98,90);
+    border:rgb(64,54,48) solid 1px;
+    border-radius: 6px;
+    color: rgb(246, 240, 240);
+    display: inline-block;
+    font-size: 25px;
+    padding: 8px 15px;
+    text-decoration: none;
+    text-align: center;
+    min-width: 60px;
+    position: relative;
+    transition: color .1s ease;
+  }
+
+  #myBtn:hover {
+    background: rgb(64,54,48);
+  }
+
+  .main {
+    text-align: center;
+    padding-top: 4%;
+  }
